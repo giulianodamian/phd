@@ -149,6 +149,7 @@ else:
                             all_combined_data.append({
                                 ConfigA.MERGE_COLUMN_FINAL_DF: base_name, 'x': x_coord_fits, 'y': y_coord_fits,
                                 'valor_txt': corresponding_txt_value,
+                                'FC1.50': hdu_popBins[0,y_coord_fits,x_coord_fits],
                                 'xyy_fits': hdu_popBins[1,y_coord_fits,x_coord_fits], 'xy0_fits': hdu_popBins[2,y_coord_fits,x_coord_fits],
                                 'xiy_fits': hdu_popBins[3,y_coord_fits,x_coord_fits], 'xii_fits': hdu_popBins[4,y_coord_fits,x_coord_fits],
                                 'xio_fits': hdu_popBins[5,y_coord_fits,x_coord_fits], 'xo_fits': hdu_popBins[6,y_coord_fits,x_coord_fits],
