@@ -4,7 +4,7 @@ import pandas as pd
 df = pd.read_csv('/scratch/users/giuliano.damian/text/4.4-df_code.txt', sep = '\t')
 
 new_names = [
-    'source_file', 'x', 'y', 'AGN_ionization',
+    'source_file', 'x', 'y', 'AGN_ionization',''FC1.50,
     'xyy', 'xy0', 'xiy',
     'xii', 'xio', 'xo',
     'SFR', 'Av', 'mage_L',
